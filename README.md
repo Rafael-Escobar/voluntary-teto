@@ -1,7 +1,7 @@
-# AI [Homeless Squad Store](https://hiringcoders2.myvtex.com/)
+# AI [Voluntary on TETO](https://voluntary-teto.netlify.app/)
 
 
-A different way to find out some important informations about our Homeless Squad Store and its products :)
+Voluntary on TETO it is a channel to interact with people interested in making a donation or know more about the project.
 
 
 ## Ok, but how do I use it?
