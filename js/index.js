@@ -1,4 +1,10 @@
 // set the focus to the input box
+const region = "eu-west-2";
+const pollId = "eu-west-2:b8cb1351-39b0-4b4c-8977-b397276fba2f";
+const userId = "serverless-bot";
+const botAlias = "$LATEST";
+const botName = "tetoBot";
+
 document.getElementById("start-chat").addEventListener('click', ()=>{
     document.getElementById("wisdom").focus();
 })
