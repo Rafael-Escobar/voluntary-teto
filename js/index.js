@@ -106,13 +106,13 @@ function showResponse(lexResponse) {
 			let url = lexResponse.message.substring(init, end);
 			console.log(url);
 			let newString = lexResponse.message;
-			console.log(newString.replace(`[${url}]`, 'Make you donation!'));
+			console.log(newString.replace(`[${url}]`, 'Make your donation!'));
 			conversationDiv.appendChild(document.createElement('br'));
 			conversationDiv.appendChild(document.createElement('br'));
 			conversationDiv.appendChild(document.createElement('br'));
 			responsePara.innerHTML = `${newString.replace(
 				`[${url}]`,
-				`<span><a href=${url} target="_blank" class="chat-link"> Make you donation! </a></span>`
+				`<span><a href=${url} target="_blank" class="chat-link"> Make your donation! </a></span>`
 			)}`;
 			responsePara.appendChild(document.createElement('br'));
 		} else {
